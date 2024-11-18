@@ -12,6 +12,9 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    env:
+      VX_APP: ${{ secrets.VX_APP }}
+      VX_SECRET: ${{ secrets.VX_SECRET }}
 
     steps:
     - uses: actions/checkout@v3

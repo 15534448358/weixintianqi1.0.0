@@ -5,19 +5,20 @@ import com.pt.vx.pojo.User;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.lang.System;
 
 public class WechatConfig {
     /**
      * 你的微信的APPID
      * appId
      */
-    public static final String VxAppId = "your VxAppId";
+    public static final String VxAppId;
 
     /**
      * 你的微信的密钥
      * appSecret
      */
-    public static final String VxAppSecret = "your VxAppSecret";
+    public static final String VxAppSecret;
 
     public static final List<User> userList = new ArrayList<>();
 
@@ -37,6 +38,8 @@ public class WechatConfig {
      * 注意：每个用户信息的最后一项不需要加逗号！！！
      */
     static {
+        VxAppId = System.getenv("VX_APP");
+        VxAppSecret = System.getenv("VX_SECRET");
         userList.add(getUser(
                 "这个人扫码后的微信号", //扫码关注你的测试号以后，测试平台会出现TA的微信号
                 "微信消息模板ID", //要给这个人发送的模板ID
