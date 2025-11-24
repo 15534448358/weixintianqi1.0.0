@@ -24,7 +24,6 @@ public class WechatConfig {
     /**
      * 配置用户信息
      *
-     *如果要多个人的话，就复制这个一遍，然后填写里面的内容。这里默认两个人,大伙应该是两个人吧（笑）
      *如果开启了master模式，除第一个用户外，其他用户只需要填写微信号
      * 要计算几个日期，就写几个new BirthDay,第一个在模板中是{{birthDay.DATA}}，第二个是{{birthDay1.DATA}}，第三个是{{birthDay2.DATA}}以此类推
      * new BirthDay()里面的参数分别代表：
