@@ -42,7 +42,7 @@ public class WechatConfig {
                 "-lKoeRc4OOyYyV1M-kNm10jv9m-wQq5TEKE5e1h65JA", //要给这个人发送的模板ID
                 "DJ", //咋称呼这个人
                 "上海市闵行区浦江镇", //这个人的详细地址
-                "浦江镇", //这个人在的城市
+                "310112", //这个人在的城市
                 new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
                 new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
                 new BirthDay(2020,7,8,true,true),
