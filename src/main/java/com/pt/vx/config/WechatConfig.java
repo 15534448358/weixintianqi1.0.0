@@ -48,7 +48,7 @@ public class WechatConfig {
                 new BirthDay(2020,7,8,true,true),
                 new BirthDay(2020,7,8,true,false,"周年快乐！！！")
         ));
-
+    /**
         userList.add(getUser(
                 "这个人扫码后的微信号",
                 "微信消息模板ID",
@@ -60,7 +60,7 @@ public class WechatConfig {
                 new BirthDay(2020,7,8,true,true),
                 new BirthDay(2020,7,8,true,false,"周年快乐！！！")
         ));
-
+ */
 
     }
 
