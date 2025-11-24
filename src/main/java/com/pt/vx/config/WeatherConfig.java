@@ -30,6 +30,8 @@ public class WeatherConfig {
      * 默认天气预报
      */
     public static Integer getWeatherType = 1;
+    
+    public static String cityAdcode = "310000"；
 
 
 }
