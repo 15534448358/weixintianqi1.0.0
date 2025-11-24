@@ -31,7 +31,7 @@ public class WeatherConfig {
      */
     public static Integer getWeatherType = 1;
     
-    public static String cityAdcode = "310000"；
+    public static String cityAdcode = "310000";
 
 
 }
